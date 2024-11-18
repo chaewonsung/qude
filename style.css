@@ -96,8 +96,6 @@ img {
 /*!*********************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./css/style.css (2) ***!
   \*********************************************************************/
-@charset "utf-8";
-
 /* 공통요소 */
 section {
   margin-bottom: 150px;
@@ -126,6 +124,8 @@ section {
 .mainTextBox {
   .title {
     font-size: 6.25vw;
+    line-height: 1.1;
+    letter-spacing: -0.03em;
     i {
       display: block;
     }
@@ -379,8 +379,6 @@ header {
       margin-bottom: 15px;
     }
     .title {
-      line-height: 1;
-      letter-spacing: -5px;
       text-align: right;
       overflow: hidden;
     }
@@ -491,8 +489,6 @@ header {
       top: 0;
     }
     .title {
-      line-height: 1;
-      letter-spacing: -5px;
       overflow: hidden;
     }
     .title.b {
@@ -969,7 +965,7 @@ footer {
 @media (max-width: 500px) {
   .mainTextBox {
     .title {
-      font-size: 50px;
+      font-size: 40px;
     }
   }
 
