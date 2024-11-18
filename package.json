@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "build": "webpack --watch"
+    "build": "webpack --watch",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "gsap": "^3.12.5"
@@ -15,7 +16,10 @@
     "gh-pages": "^6.2.0",
     "html-webpack-plugin": "^5.6.3",
     "mini-css-extract-plugin": "^2.9.2",
+    "sass": "^1.81.0",
+    "sass-loader": "^16.0.3",
     "webpack": "^5.91.0",
     "webpack-cli": "^5.1.4"
-  }
+  },
+  "homepage": "https://chaewonsung.github.io/qude/"
 }
