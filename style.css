@@ -206,6 +206,7 @@ header .gnb .menuBox {
   transform: translateX(-50%);
   top: -1000%;
   background-color: rgba(55, 55, 55, 0.4);
+  -webkit-backdrop-filter: blur(30px);
   backdrop-filter: blur(30px);
   border-radius: 5px;
   padding: 100px 0 30px;
@@ -289,6 +290,7 @@ header .gnb .menuBox.on li:nth-child(4) a {
 .con1 .box {
   padding: 60px;
   background-color: rgba(55, 55, 55, 0.4);
+  -webkit-backdrop-filter: blur(100px);
   backdrop-filter: blur(100px);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -615,6 +617,7 @@ footer .box {
   z-index: 2;
   padding: 50px 0 0;
   background: rgba(55, 55, 55, 0.4);
+  -webkit-backdrop-filter: blur(100px);
   backdrop-filter: blur(100px);
   display: flex;
   flex-direction: column;
